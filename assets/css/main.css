@@ -12968,7 +12968,7 @@ body .ui-tooltip {
   text-align: center;
   margin-bottom: 30px;
   border-radius: 10px;
-  height: 400px;
+  height: 350px;
 }
 @media (max-width: 575px) {
   .contact-us__info-item {
@@ -14677,4 +14677,24 @@ body .ui-tooltip {
 .our-skill-more__media .our-skill-more__media-img.img2 {
 height: 320px;
 width: 320px;
+}
+
+.contact-us__icon i {
+  color: #82CC33; 
+  font-size: 28px;
+  transition: color 0.3s ease;
+  font-size: 50px;
+}
+
+.contact-us__info-item:hover .contact-us__icon i {
+  color: #00CCBD; 
+}
+
+.experience__item-icon {
+  margin-right: 20px;
+  color: #82CC33;
+}
+
+.what-we-do-2__item-img i{
+  color: #00CCBD;
 }
