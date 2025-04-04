@@ -5755,11 +5755,7 @@ body .ui-tooltip {
       -ms-flex-align: center;
           align-items: center;
 }
-@media (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 992px) and (max-width: 1199px) {
-  .header__main {
-    padding: 15px 0;
-  }
-}
+
 
 .rr-sticky {
   position: fixed;
@@ -14663,7 +14659,7 @@ body .ui-tooltip {
 }
 
 .logo img{
-  height: 100px;
+  height: 80px;
   width: 100%;
 }
 
@@ -14685,7 +14681,7 @@ width: 320px;
 }
 
 .contact-us__icon i {
-  color: #82CC33; 
+  color: #DD4902; 
   font-size: 28px;
   transition: color 0.3s ease;
   font-size: 50px;
@@ -14697,9 +14693,14 @@ width: 320px;
 
 .experience__item-icon {
   margin-right: 20px;
-  color: #82CC33;
+  color: #DD4902;
 }
 
 .what-we-do-2__item-img i{
   color: #00CCBD;
+}
+
+.why-choose-us-2__item .what-we-do-2__item-img i{
+font-size: 50px;
+color: #DD4902;
 }
