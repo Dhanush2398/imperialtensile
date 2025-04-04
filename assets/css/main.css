@@ -14656,3 +14656,15 @@ body .ui-tooltip {
   border-bottom-right-radius: 0;
 }
 
+.logo img{
+  height: 100px;
+  width: 100%;
+}
+
+.about-us__box .logo img{
+  height: 50px;
+}
+
+.footer__logo img{
+  height: 100px;
+}
