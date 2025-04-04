@@ -6279,12 +6279,12 @@ body .ui-tooltip {
 /*  9.1 banner Style 1
 /*----------------------------------------*/
 .banner__space {
-  padding-top: 352px;
+  padding-top: 232px;
   padding-bottom: 206px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 992px) and (max-width: 1199px) {
   .banner__space {
-    padding-top: 260px;
+    padding-top: 180px;
     padding-bottom: 166px;
   }
 }
