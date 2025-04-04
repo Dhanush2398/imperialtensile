@@ -588,7 +588,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #6A6A6A;
+  color: #000;
 }
 
 h1, .h1,
@@ -10959,7 +10959,7 @@ body .ui-tooltip {
   z-index: -1;
   content: "";
   position: absolute;
-  background: linear-gradient(89.91deg, #EEF0F4 46.5%, rgba(255, 255, 255, 0) 99.92%);
+  background: linear-gradient(89.91deg, #EEF0F4 26.5%, rgba(255, 255, 255, 0) 99.92%);
   left: 0;
   top: 0;
   width: 100%;
