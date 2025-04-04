@@ -10473,14 +10473,6 @@ body .ui-tooltip {
   height: auto;
   width: auto;
 }
-.brand__thumb:hover {
-  -webkit-filter: invert(61%) sepia(100%) saturate(7343%) hue-rotate(246deg) brightness(79%) contrast(604%);
-          filter: invert(61%) sepia(100%) saturate(7343%) hue-rotate(246deg) brightness(79%) contrast(604%);
-}
-.brand__thumb-hover-secondary:hover {
-  -webkit-filter: invert(46%) sepia(72%) saturate(640%) hue-rotate(333deg) brightness(85%) contrast(226%);
-          filter: invert(46%) sepia(72%) saturate(640%) hue-rotate(333deg) brightness(85%) contrast(226%);
-}
 
 .brand__active .swiper-wrapper {
   -webkit-box-align: center;
