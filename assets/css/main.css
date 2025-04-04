@@ -12964,10 +12964,11 @@ body .ui-tooltip {
 
 .contact-us__info-item {
   padding: 50px 50px;
-  border: 1px solid rgba(21, 24, 27, 0.1);
+  border: 1px solid black;
   text-align: center;
   margin-bottom: 30px;
   border-radius: 10px;
+  height: 400px;
 }
 @media (max-width: 575px) {
   .contact-us__info-item {
@@ -13396,11 +13397,11 @@ body .ui-tooltip {
 .get-in-touch .rr-btn {
   margin-top: 10px;
 }
-
+/*
 .contact-map {
   -webkit-filter: grayscale(1);
           filter: grayscale(1);
-}
+}*/
 .contact-map iframe {
   width: 100%;
 }
