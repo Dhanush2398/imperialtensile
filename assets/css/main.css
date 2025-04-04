@@ -11470,7 +11470,7 @@ body .ui-tooltip {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .about-us__list li {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 .about-us__list li:not(:last-child) {
@@ -14667,4 +14667,13 @@ body .ui-tooltip {
 
 .footer__logo img{
   height: 100px;
+}
+
+.skill-one__progress-title {
+  font-size: 18px !important;
+}
+
+.our-skill-more__media .our-skill-more__media-img.img2 {
+height: 320px;
+width: 320px;
 }
