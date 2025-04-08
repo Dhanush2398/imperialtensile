@@ -14704,3 +14704,14 @@ width: 320px;
 font-size: 50px;
 color: #DD4902;
 }
+
+.btn{
+  background-color:#00CCBD;
+  color: #000;
+}
+.btn:hover {
+  background-color: #00b0a1; 
+  transform: translateY(-3px); 
+  color: #000;
+}
+
