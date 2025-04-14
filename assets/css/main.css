@@ -14715,3 +14715,38 @@ color: #DD4902;
   color: #000;
 }
 
+
+.Whatsapp-box, 
+.Call-box {
+  position: fixed;
+  right: 15px;
+  width: 50px; 
+  height: 50px;
+  background: #4eb478;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 996;
+  transition: all 0.4s;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  text-decoration: none; 
+}
+
+.Whatsapp-box {
+  bottom: 115px;
+  right: 55px;
+  background: #25d366; 
+}
+
+.Call-box {
+  bottom: 175px; 
+   right: 55px;
+  background: #007bff; 
+}
+
+.Whatsapp-box i, 
+.Call-box i {
+  font-size: 22px; 
+  color: #fff !important;
+}
