@@ -289,42 +289,40 @@
             <div class="col-lg-7">
                 <div class="get-in-touch__contact-form">
                     <h3 class="mb-20">Get in touch</h3>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="get-in-touch__form-input">
-                                <input name="name" id="lname" type="text" placeholder="full Name">
-                            </div>
-                        </div>
-
-                        <div class="col-xl-6">
-                            <div class="get-in-touch__form-input">
-                                <input name="email" id="email" type="email" placeholder="Email here">
-                            </div>
-                        </div>
-                        
-                        <div class="col-xl-6">
-                            <div class="get-in-touch__form-input">
-                                <input name="Subject" id="Subject" type="text" placeholder="Subject">
-                            </div>
-                        </div>
-                     
-                        <div class="col-sm-12">
-                            <div class="get-in-touch__form-input">
-                                <div class="validation__wrapper-up position-relative">
-                                    <textarea name="textarea" id="textarea" placeholder="write note"></textarea>
+                    <form action="contact.php" method="POST">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="get-in-touch__form-input">
+                                    <input name="name" type="text" placeholder="Full Name" required>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="col-12">
-                            <button type="submit" class="rr-btn">
+                            <div class="col-xl-6">
+                                <div class="get-in-touch__form-input">
+                                    <input name="email" type="email" placeholder="Email here" required>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="get-in-touch__form-input">
+                                    <input name="subject" type="text" placeholder="Subject" required>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="get-in-touch__form-input">
+                                    <div class="validation__wrapper-up position-relative">
+                                        <textarea name="message" placeholder="Write note" required></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="rr-btn">
                                     <span class="btn-wrap">
                                         <span class="text-one">Send Message</span>
                                         <span class="text-two">Send Message</span>
                                     </span>
-                            </button>
+                                </button>
+                            </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -332,9 +330,6 @@
 </section>
 <!--get-in-touch-->
   
-<!--get-in-touch-->
- 
-
 </main>
 <footer>
     <section class="footer__area-common theme-bg-heading-primary overflow-hidden">
