@@ -1,14 +1,15 @@
 <?php
+//get data from form  
 $name = $_POST['name'];
 $email= $_POST['email'];
 $subject = $_POST['subject'];
 $message= $_POST['message'];
 
-$to ="dhanush.dhoni007@gmail.com";
+$to ="sales.imperialtensile@gmail.com";
 $subject = "New contact from $name";
 $txt = "Name = ". $name ."\r\nEmail = " . $email.  "\r\nsubject = " . $subject .  "\r\nMessage =" . $message ;
 $headers = "From: $name <$email>" . "\r\n" .
-"CC:dhanush.dhoni007@gmail.com ";
+"CC:sales.imperialtensile@gmail.com ";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
 }
